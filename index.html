@@ -1,20 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test1_git</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-    </style>
+    <title>Snezhana CV</title>
 </head>
 <body>
-    <h1>Тестовый заголовок изменен</h1>
+    <table cellspacing = "25" >
+        <tr>
+            <td><img src="thatsMe.jpeg" width="200" alt="Тут моя фотография"/></td>
+            <td> <h1>Снежана Жукова</h1>
+                <p> Основатель <em>одноименного </em> <strong>Ютуб-канала</strong></p>
+                <p>Люблю трулюлю</p></td>
+        </tr>
+    </table>
     
+   
+    <hr/>
+    <h2>Мои соц сети</h2>
+    <ul type >
+        <li><a href="https://instagram.com/s_zhukova" target="_blank">Инстаграм</a></li>
+        <li><a href="https://vk.com/snezhana_zhukova">ВК </a>
+            <ul>
+                <li>первый вложенный элемент</li>
+                <li>второй вложенный элемент
+                    <ul>
+                        <li>оппа, еще один вложенный элемент</li>
+                        <li>а вот и второй</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>еще одна соц.сеть</li>
+    </ul>
+    <hr/>
+    <h2>Мои хобби</h2>
+    <ol>
+        <li>Скейтборд</li>
+        <li>Чтение</li>
+    </ol>
+    <hr/>
+    <h2>Опыт работы</h2>
+    <table>
+        <tr>
+            <th>Должность</th>
+            <th>Компания</th>
+            <th>Год</th>
+        </tr>
+        <tr>
+            <td>Тестировщик</td>
+            <td>Гламарт</td>
+            <td>2021-2022</td>
+        </tr>
+        <tr>
+            <td>Консультант 1С</td>
+            <td>Boxberry</td>
+            <td>2020-2021</td>
+        </tr>
+       
+    </table>
+    <hr/>
+    <h2>Ютуб-курсы</h2>
+    <a href="YouTube.html"> Посмотреть список </a>
+<h2>Связаться со мной</h2>
+<form action="/">
+    <label for="name">Ваше имя:</label>
+    <input type="text" name="" id="name" placeholder="сюда)">
+    <br>
+    <br>
+    <label for="email">Ваш email:</label>
+    <input type="submit" value="Подтвердить">
+    <br>
+    <label for="text"></label><strong>Введите ваш текст:</strong></label>
+    <br>
+    <textarea name="" id="text" cols="50" rows="10"></textarea>
+</form>
 </body>
-<script src="script.js"></script> 
 </html>
